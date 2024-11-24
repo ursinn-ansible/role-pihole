@@ -48,6 +48,7 @@
      - '{{ docker_volume_dnsmasq }}:/etc/dnsmasq.d:Z'
     env:
       TZ: '{{ docker_tz }}'
+      WEBPASSWORD: '{{ role_pihole_webpassword }}'
     ports:
       - '53:53/tcp'
       - '53:53/udp'
