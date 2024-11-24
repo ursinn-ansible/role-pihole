@@ -4,4 +4,5 @@ role_pihole_container: 'pihole'
 role_pihole_tz: 'Europe/Zurich'
 role_pihole_volume: 'pihole'
 role_pihole_network: 'app-network'
+
 role_pihole_webpassword: ''
